@@ -18,11 +18,11 @@ Cut that tedium with these simple "swizzle" extended methods for Unity Vectors.
 transform.position = transform.position.XY_(10);
 ```
 
-Simply pick a file for you to place in anywhere in your Unity project, and the appropriate method extensions should appear.
+
 
 # Using the Swizzles
 
-All functions extend the Vector3 value type and take in either a Vector2 or Vector3.
+Simply pick a file for you to place in anywhere in your Unity project, and the appropriate method extensions should appear. All functions extend the Vector3 value type and take in either a Vector2 or Vector3. Vector2s don't have a Z component, so they do not have any extended function with a Z in it.
 
 The method names simply represent the layout of the next Vector and what components of the original vector go to what positions. For example;
 ```
